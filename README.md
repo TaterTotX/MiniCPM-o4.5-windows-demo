@@ -83,13 +83,33 @@ A: MiniCPM-o4.5 支持中英文交互，以中文效果最佳。
 
 ---
 
+## 🗂️ 模型文件位置
+
+模型文件下载完成后存放在以下目录：
+
+```
+C:\Users\{你的用户名}\AppData\Local\MiniCPM-o\models\
+```
+
+也可以直接在资源管理器地址栏输入以下路径快速跳转：
+
+```
+%LOCALAPPDATA%\MiniCPM-o\models\
+```
+
+### 删除模型文件
+
+如需释放磁盘空间，直接删除上述 `models` 文件夹即可（约 8 GB）。  
+删除后重新启动程序，会重新触发模型下载。
+
+### 卸载程序
+
+在 Windows **设置 → 应用 → 已安装应用** 中找到 `MiniCPM-o4.5` 卸载即可。  
+> ⚠️ 卸载程序**不会自动删除**模型文件，如需彻底清理请手动删除上述模型目录。
+
+---
+
 ## 📄 相关链接
 
 - [MiniCPM-o 官方仓库](https://github.com/OpenBMB/MiniCPM-o)
 - [MiniCPM-o4.5 模型介绍](https://huggingface.co/openbmb/MiniCPM-o-2_6)
-
----
-
-## ⚠️ 声明
-
-本项目为 MiniCPM-o4.5 的 Windows 非官方打包版本，模型版权归 OpenBMB 团队所有。
