@@ -3,7 +3,7 @@
 <div align="center">
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square&logo=windows)
-![Installer Size](https://img.shields.io/badge/安装包-仅%2010MB-brightgreen?style=flat-square)
+![Installer Size](https://img.shields.io/badge/安装包-仅%206MB-brightgreen?style=flat-square)
 ![Model Size](https://img.shields.io/badge/模型大小-约%208GB-orange?style=flat-square)
 ![CPU Support](https://img.shields.io/badge/推理-CPU%20支持-yellow?style=flat-square)
 
